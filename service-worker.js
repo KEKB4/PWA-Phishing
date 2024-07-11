@@ -2,7 +2,7 @@ self.addEventListener('install', event => {
   event.waitUntil(
     caches.open('v1').then(cache => {
       return cache.addAll([
-        '/mrd0x.html',
+        '/knowbe4.html',
         '/styles.css',
         '/images/icons-192.png',
       ]).catch(error => {
