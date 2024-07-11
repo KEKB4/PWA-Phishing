@@ -1,7 +1,7 @@
 {
-  "name": "Microsoft Login",
-  "short_name": "Microsoft Login",
-  "start_url": "/mrd0x.html",
+  "name": "Knowbe4 Login",
+  "short_name": "Knowbe4 Login",
+  "start_url": "/knowbe4.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#d3d3d3",
